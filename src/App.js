@@ -56,7 +56,6 @@ function App() {
             </div>
           ) : (
             <div className="w-0 dark:bg-secondary-dark-bg">
-            
               <Sidebar />
             </div>
           )}
@@ -101,6 +100,7 @@ function App() {
                 <Route path="/financial" element={<Financial />} />
                 <Route path="/pyramid" element={<Pyramid />} />
                 <Route path="/stacked" element={<Stacked />} />
+                <Route path="/color-mapping" element={<ColorMapping />} />
               </Routes>
             </div>
           </div>

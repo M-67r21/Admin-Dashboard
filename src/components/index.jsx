@@ -10,6 +10,6 @@ export { default as Cart } from "./Cart";
 export { default as Notification } from "./Notification";
 export { default as UserProfile } from "./UserProfile";
 export { default as LineChart } from "./charts/LineChart";
-export { default as Pie } from "./charts/Pie";
+export { default as PieChart } from "./charts/PieChart";
 export { default as SparkLine } from "./charts/SparkLine";
-export { default as Stacked } from "./charts/Stacked";
+export { default as StackedComponent } from "./charts/StackedComponent";

@@ -15,7 +15,7 @@ import {
   stackedPrimaryYAxis,
 } from "../../data/dummy";
 
-const Stacked = ({ width, height }) => {
+const StackedComponent = ({ width, height }) => {
   return (
     <ChartComponent
       width={width}
@@ -39,4 +39,4 @@ const Stacked = ({ width, height }) => {
   );
 };
 
-export default Stacked;
+export default StackedComponent;
